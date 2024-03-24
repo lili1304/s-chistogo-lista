@@ -1,0 +1,280 @@
+body {
+    margin: 0px auto;
+    width: 360px;
+    background-color: #1e1e1e;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 360px;
+    padding: 24px 20px;
+    height: 132px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'EB Garamond';
+    font-weight: lighter;
+
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #CCCCCC;
+}
+
+h3 {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+u {
+    display:flex;
+    flex-flow:column;
+    gap:24;
+}
+
+.header__logo {
+    width: 78.45px;
+    height: 15.43px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.header__menu-list {
+    display:flex;
+    flex-flow:column;
+    gap: 16px 0px;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    list-style-type: none;
+    width: 75px;
+    height: 107px;
+    font-size: 16px;
+    line-height: 1em;
+}
+
+.content-section {
+    width: 360px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.cover {
+    width: 360px;
+    height: 228px;
+    padding-top: 8px;
+}
+
+.cover_logo {
+    background-image: url("file:///C:/Temp/Temp1_s-chistogo-lista-main(1).zip/s-chistogo-lista-main/images/cover.svg");
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    background-size: 339px auto;
+    margin-right: 0px;
+}
+
+.cover__title {
+    height: 72px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 72px;
+    padding-left: 20px;
+}
+
+.text-center {
+    display: block;
+    height: 72px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.text-right {
+    display: block;
+    height: 72px;
+    font-weight: 400;
+    font-size: 72px;
+    font-style: normal;
+    line-height: 72px;
+    margin: 0px 25px 0px auto;
+    text-align: end;
+}
+
+.intro {
+    width: 360px;
+    height: 523px;
+    padding: 30px 20px;
+}
+
+.text-right-intro {
+    display: block;
+    text-align: right;
+    margin: 0px 0px 0px auto;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    line-height: 19px;
+}
+
+time {
+    display: flex;
+    flex-shrink:0;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.intro__main-text {
+    padding-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F5F5F5;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 32px;
+    width: 360px;
+    height: 1370px;
+}
+
+.text-right-reasons {
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+}
+
+.how-to {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    width: 360px;
+    height: 1850px;
+}
+
+.content-section__introduction {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.content-section__list {
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21.7px;
+}
+
+.card {
+    background-color: #343434;
+    border-radius: 30px;
+    padding: 20px;
+}
+.card.light{
+    background-color: #FEE42A;
+    color: #1e1e1e;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.card h5{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.card p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: solid 1px #FEE42A;
+    padding:0 20px;
+}
+footer a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    color: #F5F5F5;
+    text-decoration:none;
+    margin-left:10px;
+}
+
+footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.content-section_theme_dark {
+    color: white;
+    background-color: black;
+  }
+
+  .content-section_theme_bright {
+    color: black;
+    background-color: yellow;
+  }
